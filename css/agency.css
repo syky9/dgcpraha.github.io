@@ -123,11 +123,11 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: white;
+  color: #f8f9fa;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #002966;
+  color: white;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
