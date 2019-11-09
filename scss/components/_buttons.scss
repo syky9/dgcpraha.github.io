@@ -24,3 +24,30 @@
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
   }
 }
+
+.btn-outline-primary {
+  color: $primary;
+  border-color: $primary;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba($primary, 0.5);
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: $primary;
+  background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: $primary;
+  border-color: $primary;
+}
